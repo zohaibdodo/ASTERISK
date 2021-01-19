@@ -1,0 +1,2 @@
+Asterisk Backup Location  /var/spool/asterisk/backup
+Asterisk Logs:	/var/log/asterisk/full
