@@ -1,0 +1,8 @@
+Trace calls
+
+Asterisk -vvvvvvr | grep callerID
+
+Extract extension from sip show peers:
+
+rasterisk -x "sip show peers" | grep 6598
+rasterisk -x "sip show peers" | grep -i tcl
