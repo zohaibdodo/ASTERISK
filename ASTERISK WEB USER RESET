@@ -1,0 +1,11 @@
+amportal admin auth_none (you can login now without credentials)
+
+Now you can Add/Remove or edit users with passwords in the webgui.
+Afterwords from ssh type
+amportal admin auth_database (now the credentials are needed again to login to the webgui)
+
+
+
+mysql -D asterisk -e "UPDATE ampusers SET password_sha1='e1edd0771b6345f00b5557b98b2bde8fd66744c5' WHERE username='admin'"
+
+Password: iforgotmypassword
