@@ -1,0 +1,11 @@
+To Unregister a extension or a peer:
+
+>sip unregister <extension_number>
+
+Example:
+
+>sip unregister 6598
+
+To clear previous extensions/peer state:
+
+>sip qualify peer 6598
