@@ -1,0 +1,9 @@
+To download system admin module if you face applyconfig issue.
+
+amportal a ma download sysadmin
+amportal a ma install sysadmin
+
+for FreePBX 13
+
+fwconsole ma download framework
+fwconsole ma install framework
