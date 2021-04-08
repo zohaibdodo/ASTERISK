@@ -9,3 +9,13 @@ amportal admin auth_database (now the credentials are needed again to login to t
 mysql -D asterisk -e "UPDATE ampusers SET password_sha1='e1edd0771b6345f00b5557b98b2bde8fd66744c5' WHERE username='admin'"
 
 Password: iforgotmypassword
+
+
+Log into your FreePBX server via SSH as the root user, using a tool such as PuTTY on Windows, or Terminal on Mac.
+Next, bring up your FreePBX web interface in a web browser. Once the page has loaded, press Ctrl + A on your keyboard to highlight everything on the page.
+Locate the unique session ID on the left side of the screen, and copy this string. It will look something like this: igg56njsp8bi0h4odqnupsq963
+In your PuTTY or terminal window, type the following (be sure to replace the unique string with your own, and press enter):
+[root@pbx ~]# fwconsole unlock igg56njsp8bi0h4odqnupsq963
+Unlocking:
+session unlocked!
+[root@pbx ~]#
