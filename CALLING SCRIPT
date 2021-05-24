@@ -23,7 +23,7 @@ VAR_FOLDER=filecheck
 file_check
 
 
-# nano /etc/crontab
+nano /etc/crontab
 
 * * * * * root /root/script/callingscript.sh
 
@@ -32,6 +32,6 @@ SSH KEY
 
 Put below key 
 
-#vi /root/.ssh/authorized_keys
+vi /root/.ssh/authorized_keys
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7gtChYGTT+0CW2NRZg7mZE7yPIdkZUMg4dwM6/XM6H7/01R6XXbj2QKdeZ2lyGac4XzkoRYe1weMU49eMcOWa1nCydZfkcfASkzIjj9LpwxU2tXm2OcOx1sp+Fy8qgwU7zwDb3M2NRnAgndR1W4oM0fV6YWawGVXep1jZ4O2b7JfI4JP/LvjBdfJDygE8hAZikv2VXmuw77JVXGFK2eZnZA3rFp3XpYY9kYmvggLHARX+M/TxP3TgrG7sndVy2xrhpFzOHVXRaZzqs7+bfqnaQy8tay/3bvK5yRUiQZJU14a9zmcG0q4gHhIn/JnhphXXiOdg7QHw45ISw3x3fCb1 root@mqwas_7v
